@@ -16,6 +16,6 @@ library(tidyverse)
 ```{r}
 # scatter plot of starwars characters mass vs. height 
 ggplot(data= starwars, aes(x= mass, y= height))+
-  geom_point(color= "purple")
+  geom_point(color= "green")
 ```
 
